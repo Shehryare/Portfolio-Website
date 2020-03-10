@@ -27,7 +27,7 @@ $(document).ready(function () {
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Software Development Engineer.", "Full Stack Web Developer.", "Cloud Engineer."],
+        strings: ["Software Engineer.", "Full Stack Web Developer."],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
@@ -99,14 +99,14 @@ $(document).ready(function () {
     $("[data-fancybox]").fancybox();
 
 
-	/*$(".items").isotope({
-		filter: '*',
-		animationOptions: {
-			duration: 1500,
-			easing: 'linear',
-			queue: false
-		}
-	});*/
+	// $(".items").isotope({
+	// 	filter: '*',
+	// 	animationOptions: {
+	// 		duration: 1500,
+	// 		easing: 'linear',
+	// 		queue: false
+	// 	}
+	// });
 
     $("#filters a").click(function () {
 
